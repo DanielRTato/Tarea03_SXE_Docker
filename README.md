@@ -13,3 +13,15 @@ docker images -- para mostrar las imagenes en el equipo
 
 ---
 
+2. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
+
+Comandos:
+- docker run -d alpine para crearlo 
+- No no está arrancada porque con docker ps no se muestra (muestra solo los contenedores activos)
+- docker ps -a para mostrar todas. y asi consigo el nombre, que es aleatorio
+
+![y.png](img/y.png)
+
+---
+
+
