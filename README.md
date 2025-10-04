@@ -68,3 +68,20 @@ ps -a  muestra que el estado de dam_alp1 y dam_alp2 es exited.
 El contenedor se detiene.
 
 ![6.PNG](img%2F6.PNG)
+
+---
+
+7. Cuanta memoria en el disco duro ocupaste
+
+Comandos:
+
+docker images muestra el tamaño de las imagenes
+
+docker system df muestra todo lo que ocupa docker
+
+![7.PNG](img%2F7.PNG)
+
+---
+
+
+
