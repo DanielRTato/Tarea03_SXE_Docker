@@ -24,4 +24,9 @@ Comandos:
 
 ---
 
+3. Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
+
+Comandos:
+
+docker run -it --name dam_alp1 alpine lo crea y entra la vez
 
