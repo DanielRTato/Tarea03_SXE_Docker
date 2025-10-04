@@ -45,3 +45,15 @@ ping -c 4 google.com para hcer ping a google
 ![4.PNG](img%2F4.PNG)
 
 ---
+
+5. Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+
+Comandos:
+
+docker run -it --name dam_alp2 alpine
+
+ping -c 4 172.17.0.2
+
+Sí, pueden hacer ping entre ellos
+
+![5.PNG](img%2F5.PNG)
