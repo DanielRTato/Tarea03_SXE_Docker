@@ -7,20 +7,20 @@ Comandos:
 
 docker pull alpine descarga la imagen
 
-docker images -- para mostrar las imagenes en el equipo
+docker images ls para mostrar las imagenes en el equipo
 
-![Captura desde 2025-10-03 08-51-24.png](img/Captura%20desde%202025-10-03%2008-51-24.png)
+![1.PNG](img%2F1.PNG)
 
 ---
 
 2. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
 
 Comandos:
-- docker run -d alpine para crearlo 
+- docker create alpine para crearlo 
 - No no está arrancada porque con docker ps no se muestra (muestra solo los contenedores activos)
-- docker ps -a para mostrar todas. y asi consigo el nombre, que es aleatorio
+- docker ps -a para mostrar todas. y asi consigo el nombre, que es aleatorio (loving_shannon)
 
-![y.png](img/y.png)
+![2.PNG](img%2F2.PNG)
 
 ---
 
