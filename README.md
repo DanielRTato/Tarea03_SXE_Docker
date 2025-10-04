@@ -83,5 +83,13 @@ docker system df muestra todo lo que ocupa docker
 
 ---
 
+8. Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
 
+Comando:
+
+docker stats
+
+EN el apartado MEM USAGE se muestra la memorai que está utilizando cada contenedor
+
+![8.PNG](img%2F8.PNG)
 
