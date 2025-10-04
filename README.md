@@ -57,3 +57,14 @@ ping -c 4 172.17.0.2
 Sí, pueden hacer ping entre ellos
 
 ![5.PNG](img%2F5.PNG)
+
+6. Sal del terminal, ¿que ocurrió con el contenedor?
+
+Comandos:
+
+Exit para salir de la terminal
+
+ps -a  muestra que el estado de dam_alp1 y dam_alp2 es exited. 
+El contenedor se detiene.
+
+![6.PNG](img%2F6.PNG)
