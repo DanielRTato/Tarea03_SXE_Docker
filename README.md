@@ -33,3 +33,15 @@ docker run -it --name dam_alp1 alpine lo crea y entra la vez
 ![3.PNG](img%2F3.PNG)
 
 ---
+
+4. Comprueba que ip tiene y si puedes hacer un ping a google.com
+
+Comandos:
+
+ip a  muestra ip
+
+ping -c 4 google.com para hcer ping a google
+
+![4.PNG](img%2F4.PNG)
+
+---
