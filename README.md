@@ -30,3 +30,6 @@ Comandos:
 
 docker run -it --name dam_alp1 alpine lo crea y entra la vez
 
+![3.PNG](img%2F3.PNG)
+
+---
